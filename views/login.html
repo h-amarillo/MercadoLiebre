@@ -1,14 +1,30 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Ingresa a tu cuenta</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-        <link rel="stylesheet" href="css/styles.css">
-    </head>
-    <body>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ingresa a tu cuenta</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+    <header>
+        <div class="top_header">
+            <div class="logo">
+                <img src="images/logo-mercado-liebre.svg" alt="Logo de MercadoLiebre">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="/register">Creá tu cuenta <i class="far fa-id-card"></i></a></li>
+                    <li><a href="/">Inicio <i class="fas fa-sign-in-alt"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="el_login">
         <h1>Ingresa a tu cuenta</h1>
         <form action="" method="post">
             <div class="usuario">
@@ -20,8 +36,9 @@
                 <input required placeholder="Ingresa tu contraseña" type="password" name="password" id="contraseña">
             </div>
             <div class="boton_enviar">
-                <label for="enviar_info"> Enviar </label>
-                <input placeholder="Haz clic para entrar a tu cuenta" type="button" name="send" id="enviar_info">
+                <button placeholder="Haz clic para entrar a tu cuenta" type="submit" id="enviar_info"><a
+                        href="/">Enviar</a></button>
             </div>
         </form>
-    </body>
+    </section>
+</body>
