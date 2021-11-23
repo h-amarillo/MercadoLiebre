@@ -81,13 +81,17 @@ div input{
     margin: 4%; 
     padding: 5% 15%;    
 }
-div.boton_enviar , #enviar_info {
+#enviar_info {
     background-color: #0044AA;
     border-color: #0044AA;
     border-radius: 5px;
-    width: 20%;
-    padding: 3%;
+    width: 450%;
+    padding: 20% 50%;
     text-align: center;
+}
+div.boton_enviar{
+    display: flex;
+    justify-content: center;
 }
 button a{
     color:white;

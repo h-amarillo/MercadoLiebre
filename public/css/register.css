@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;    
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+p{
+    font-size: 12px;
+}
+
+header{
+    background-color: #EAC926;
+}
+header div.top_header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header .logo{
+    width: 25%;
+    margin-right: 15%;
+    display: flex;
+}
+header nav{
+    width: 40%;
+}
+header ul{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+header ul li{
+    width: 100%;
+    margin: 3%;
+}
+header ul li a{
+    text-decoration: none;
+    color: black;
+}
