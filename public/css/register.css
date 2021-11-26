@@ -52,10 +52,10 @@ div.box-de-form{
     border: #f0e29c 2px dotted;
     box-shadow: 5px 5px 5px 5px #f0e29c;
 }
-div.input{
-    padding: 3% 3%;
-    margin: 3% 0 5% 0;
-    border: gray
+input{
+    padding: 2% 0% 2% 1%;
+    margin: 3% 0 3% 0;
+    border: blue;
 }
 div .complete-name , .user-name , .birthdate , .adress , .user-type , .interested-in , .user-photo , .password , .r-password{
     display: flex;
@@ -69,7 +69,22 @@ div.complete-name , .user-type , .interested-in , .user-photo , .password{
 label .electro , .fashio , .home , .toys , .healthy-life{
     color: black;
 }
-label.electro , .seller{
+div .box-seller , .box-buyer{
+    display: flex;
+}
+div .box-seller{
+    margin-top: 2%;
+}
+div .chkbox-buyer , .chkbox-seller{
+    order: -1;
+    margin-right: 5%;
+    text-align: center;
+}
+label.seller , .buyer{
+    display: flex;
+    align-items: center;
+}
+label.electro{
     margin-top: 2%;
 }
 div.botones{
@@ -78,7 +93,7 @@ div.botones{
 }
 button.send , .reset{
     color: rgb(192, 186, 186);
-    padding: 3%;
+    padding: 5%;
     margin-bottom: 3%;
     border-radius: 5%;
     font-size: 18px;

@@ -51,10 +51,14 @@
 
             <div class="user-type">
                 <label>Tipo de Usuario</label>
-                <label class="seller" for="Vendedor">Vendedor</label>
-                <input type="radio" name="tipo-usuario" value="Me interesa vender" id="vendedor" />
-                <label for="Comprador">Comprador</label>
-                <input type="radio" name="tipo-usuario" value="Me interesa comprar" id="comprador" />
+                <div class="box-seller">
+                    <label class="seller" for="Vendedor">Vendedor</label>
+                    <input class="chkbox-seller" type="radio" name="tipo-usuario" value="Me interesa vender" id="vendedor" />
+                </div>
+                <div class="box-buyer">
+                    <label class="buyer" for="Comprador">Comprador</label>
+                    <input class="chkbox-buyer" type="radio" name="tipo-usuario" value="Me interesa comprar" id="comprador" />
+                </div>
             </div>
 
             <div class="interested-in">
