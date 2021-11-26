@@ -47,13 +47,47 @@ header ul li a{
 
 /*dando estilo al formulario*/
 div.box-de-form{
-    padding:5% 15% 0 15%;
-    margin: 5% 20%;
+    padding:3% 15% 0 15%;
+    margin: 3% 20%;
     border: #f0e29c 2px dotted;
     box-shadow: 5px 5px 5px 5px #f0e29c;
 }
 div.input{
     padding: 3% 3%;
-    margin: 2% 0 5% 0;
+    margin: 3% 0 5% 0;
     border: gray
+}
+div .complete-name , .user-name , .birthdate , .adress , .user-type , .interested-in , .user-photo , .password , .r-password{
+    display: flex;
+    flex-direction: column;
+    margin: 3%;
+}
+div.complete-name , .user-type , .interested-in , .user-photo , .password{
+    padding: 2% 0 0 0;
+    border-top: gray 2px solid;
+}
+label .electro , .fashio , .home , .toys , .healthy-life{
+    color: black;
+}
+label.electro , .seller{
+    margin-top: 2%;
+}
+div.botones{
+    display: flex;
+    justify-content: space-around;
+}
+button.send , .reset{
+    color: rgb(192, 186, 186);
+    padding: 3%;
+    margin-bottom: 3%;
+    border-radius: 5%;
+    font-size: 18px;
+}
+button.send{
+    background-color: rgba(0, 0, 255, 0.856);
+    border:rgba(0, 0, 255, 0.856) 2px solid;
+}
+button.reset{
+    background-color:rgba(221, 23, 23, 0.904);
+    border: rgba(221, 23, 23, 0.904) 2px solid;
 }

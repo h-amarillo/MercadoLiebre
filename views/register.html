@@ -51,33 +51,33 @@
 
             <div class="user-type">
                 <label>Tipo de Usuario</label>
-                <label for="Vendedor">Vendedor</label>
+                <label class="seller" for="Vendedor">Vendedor</label>
                 <input type="radio" name="tipo-usuario" value="Me interesa vender" id="vendedor" />
                 <label for="Comprador">Comprador</label>
                 <input type="radio" name="tipo-usuario" value="Me interesa comprar" id="comprador" />
             </div>
 
             <div class="interested-in">
-                <label for="Categorias de interes">Categorías de interés</label>
+                <label class="title-interested-in" for="Categorias de interes">Categorías de interés</label>
                 <!--¿si va ese for?-->
-                <label for="electro">
-                    <input type="checkbox" name="interés-en" value="Electro" id="electro" />
+                <label class="electro" for="electro">
+                    <input type="checkbox" name="interés-en" value="Electro" id="electro" />   Electrónica
                 </label>
 
-                <label for="moda">
-                    <input type="checkbox" name="interés-en" value="Moda" id="moda" />
+                <label class="fashion" for="moda">
+                    <input type="checkbox" name="interés-en" value="Moda" id="moda" />   Moda
                 </label>
 
-                <label for="hogar">
-                    <input type="checkbox" name="interés-en" value="Hogar" id="hogar" />
+                <label class="home" for="hogar">
+                    <input type="checkbox" name="interés-en" value="Hogar" id="hogar" />   Hogar
                 </label>
 
-                <label for="jugueteria">
-                    <input type="checkbox" name="interés-en" value="Juguetería" id="jugueteria" />
+                <label class="toys" for="jugueteria">
+                    <input type="checkbox" name="interés-en" value="Juguetería" id="jugueteria" />   Juguetería
                 </label>
 
-                <label for="vidasana">
-                    <input type="checkbox" name="interés-en" value="Vida sana" id="vidasana" />
+                <label class="healthy-life" for="vidasana">
+                    <input type="checkbox" name="interés-en" value="Vida sana" id="vidasana" />   Vida sana
                 </label>
             </div>
 
@@ -91,15 +91,15 @@
                 <input placeholder="Coloca la contraseña" type="password" name="password" minlength="8" id="password" />
             </div>
 
-            <div class="r-passwors">
+            <div class="r-password">
                 <label for="repite password">Confirma tu contraseña</label>
                 <input placeholder="Repite tu contraseña" type="password" name="password2" minlength="8"
-                    id="repite password" />
+                    id="repite password"/>
             </div>
 
             <div class="botones">
-                <button type="submit" id="boton enviar">Enviar</button>
-                <button type="reset" id="boton borrar">Borrar datos del formulario</button>
+                <button class="send" type="submit" id="boton enviar">Enviar</button>
+                <button class="reset" type="reset" id="boton borrar">Borrar datos del formulario</button>
             </div>
         </form>
     </div>
