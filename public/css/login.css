@@ -81,12 +81,16 @@ div input{
     padding: 5% 15%;    
 }
 #enviar_info {
-    background-color: #0044AA;
-    border-color: #0044AA;
+    background-color: rgba(65, 123, 250, 0.856);
+    border:rgba(65, 123, 250, 0.856) 2px solid;
     border-radius: 5px;
     width: 450%;
     padding: 20% 50%;
     text-align: center;
+    transition: background-color 450ms;
+}
+#enviar_info:hover{
+    background-color: #0022AA;
 }
 div.boton_enviar{
     display: flex;
