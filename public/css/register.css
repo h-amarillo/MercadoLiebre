@@ -45,6 +45,11 @@ header ul li a{
     color: black;
 }
 
+/*--Título del formulario*/
+div p.title-form{
+    color: rgb(100,100,100);
+    font-weight: bold;
+}
 /*dando estilo al formulario*/
 div.box-de-form{
     padding:5% 15% 0 15%;
@@ -55,5 +60,5 @@ div.box-de-form{
 div.input{
     padding: 3% 3%;
     margin: 2% 0 5% 0;
-    border: gray
+    border: gray;
 }
