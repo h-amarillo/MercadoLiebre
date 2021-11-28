@@ -37,7 +37,7 @@ header div.logo{
     width: 50%;
 }
 header div.form{
-    width: 60%;
+    width: 100%;
     height: 2.5em;
     background-color: #FFF;
     display: flex;
@@ -45,18 +45,17 @@ header div.form{
     align-items: center;
     border-radius: 15px;
 }
-form{
+form.search-box{
+    width: 100%;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0 0 0 8%;
-    font-size: 11px;
-   
     justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    flex-wrap: nowrap;
 }
 div input.submit , .text-search-box{
     border: none;
-    width: 80%;
+    width: 100%;
 }
 div input.text-search-box{
     font-size: 10px;
